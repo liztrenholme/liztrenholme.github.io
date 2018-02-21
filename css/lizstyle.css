@@ -1,0 +1,59 @@
+body {
+	background-color: #AD918C;
+	background-image: url("../images/birds.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	font-size: 100%;
+	font-family: 'Yantramanav', sans-serif;
+}
+
+nav {
+	background-color: #fffff6;
+	opacity: .8;
+	position: fixed;
+	width: 100%;
+
+}
+
+#spacer {
+	margin: 20%;
+}
+
+.profile {
+	border: 3px solid #fffff6;
+
+}
+
+
+/* Make the links look cool */
+a:link {
+	color: black;
+	text-decoration: none;
+	}
+a:visited {
+	color: black;
+	text-decoration: none;
+	}
+a:hover {
+	color: gray;
+	text-decoration: none;
+	}
+
+.col-lg-12 {
+	background-color: #fffff6;
+	opacity: .8;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
