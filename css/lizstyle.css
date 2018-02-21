@@ -73,6 +73,10 @@ a:hover {
 	opacity: .9;
 }
 
+.portfolio {
+	border: 4px solid #fffff6;
+}
+
 .col-lg-4 {
 	opacity: .9;
 }
