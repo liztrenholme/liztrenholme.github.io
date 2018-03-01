@@ -99,17 +99,11 @@ a:hover {
 }
 
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {
+
+// Medium devices (tablets, 768px and smaller)
+@media (max-width: 768px) {
 	body {
 		background-image: fixed;
 		background-size: contain;
-	}
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-	body {
-		background-image: fixed;
 	}
 }
