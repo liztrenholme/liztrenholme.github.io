@@ -1,7 +1,7 @@
 body {
 	background-color: #AD918C;
-	background-image: url("../images/birds.jpg");
-	background-size: cover;
+	background-image: url("../images/birds.jpg"); 
+/*	background-size: contain; */
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -101,10 +101,20 @@ a:hover {
 
 
 // Medium devices (tablets, 768px and smaller)
-@media (max-width: 768px) {
+@media only and (max-width: 600px) {
 	body {
-
-		background-image: url("../images/birdsmobile.jpg");
+		background-image: url("../images/birdsmobile.jpg"); 
 		background-attachment: fixed;
+		background-color: #582C3D;
+	}
+}
+
+/*
+@media all and (min-width: 600px) {
+	body {
+		background-image: url(../images/birdsmobile.jpg); 
+		background-attachment: fixed;
+		background-size: 100%;
+		scroll-behavior: smooth;
 	}
 }
