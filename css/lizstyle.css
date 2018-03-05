@@ -1,5 +1,5 @@
 body {
-	background-color: #AD918C;
+	background-color: #49203E;
 	background-image: url("../images/birds.jpg"); 
 /*	background-size: contain; */
 	background-attachment: fixed;
@@ -99,7 +99,7 @@ a:hover {
 }
 
 
-
+/*
 // Medium devices (tablets, 768px and smaller)
 @media only and (max-width: 600px) {
 	body {
@@ -107,14 +107,4 @@ a:hover {
 		background-attachment: fixed;
 		background-color: #582C3D;
 	}
-}
-
-/*
-@media all and (min-width: 600px) {
-	body {
-		background-image: url(../images/birdsmobile.jpg); 
-		background-attachment: fixed;
-		background-size: 100%;
-		scroll-behavior: smooth;
-	}
-}
+} */
