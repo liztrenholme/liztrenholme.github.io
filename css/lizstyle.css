@@ -33,6 +33,14 @@ p {
 
 }
 
+.social {
+/*	margin: 2px; */
+}
+
+.insta {
+	margin: 8px 5px 0 8px;
+}
+
 .profile-rounded {
 	float: right;
 	opacity: 1;
@@ -49,6 +57,22 @@ p {
 
 .logos {
 	align-items: center;
+}
+
+.front-end {
+	width: 25%;
+}
+
+.exp-logo {
+	width: 25%;
+}
+
+.mongo-logo {
+	width: 17%;
+}
+
+.node-logo {
+	width: 15%;
 }
 
 .text-box {
