@@ -57,10 +57,12 @@ p {
 
 .logos {
 	align-items: center;
+	padding: 1%;
 }
 
 .front-end {
-	width: 25%;
+	margin-top: 4%;
+	width: 30%;
 }
 
 .exp-logo {
@@ -71,8 +73,12 @@ p {
 	width: 17%;
 }
 
-.node-logo {
-	width: 15%;
+.node-logo, .mysql-logo {
+	width: 25%;
+}
+
+.react-logo {
+	width: 20%;
 }
 
 .text-box {
