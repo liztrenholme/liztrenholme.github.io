@@ -137,12 +137,22 @@ a:hover {
 }
 
 
-/*
-// Medium devices (tablets, 768px and smaller)
-@media only and (max-width: 600px) {
+
+/* Medium devices (tablets, 768px and smaller) */
+@media (max-width: 767.98px) {
 	body {
 		background-image: url("../images/birdsmobile.jpg"); 
 		background-attachment: fixed;
 		background-color: #582C3D;
 	}
-} */
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+	  }
+}
+@media (max-width: 517.98px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+	  }
+}
