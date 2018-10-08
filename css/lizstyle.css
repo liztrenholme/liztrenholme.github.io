@@ -154,7 +154,8 @@ footer {
 }
 @media (max-width: 517.98px) {
 	.bio-blurb {
-		max-height: 20%;
+		max-height: 300px;
+		overflow: scroll;
 		scroll-behavior: auto;
 	}
 	.grid-container {
