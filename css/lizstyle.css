@@ -1,7 +1,6 @@
 body {
 	background-color: #49203E;
-	background-image: url("../images/birds.jpg"); 
-/*	background-size: contain; */
+	background-image: url("../images/birds.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -31,10 +30,6 @@ p {
 	width: 100%;
 	font-size: 120%;
 
-}
-
-.social {
-/*	margin: 2px; */
 }
 
 .insta {
@@ -135,7 +130,11 @@ a:hover {
 	margin: 20px 0;
 	opacity: .9;
 }
-
+footer {
+	margin: 0 35%;
+	font-size: 90%;
+	color: #fff;
+}
 
 
 /* Medium devices (tablets, 768px and smaller) */
@@ -149,10 +148,20 @@ a:hover {
 		display: grid;
 		grid-template-columns: auto auto;
 	  }
+	  footer {
+		  margin: 0 28%;
+	  }
 }
 @media (max-width: 517.98px) {
+	.bio-blurb {
+		max-height: 20%;
+		scroll-behavior: auto;
+	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
+	  }
+	  footer {
+		  margin: 0 18%;
 	  }
 }
