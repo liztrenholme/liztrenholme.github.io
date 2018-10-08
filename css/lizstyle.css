@@ -23,6 +23,10 @@ p {
 	color: black;
 }
 
+embed {
+	height: 700px;
+}
+
 .navbar {
 	background-color: #fffff6;
 	opacity: 1;
@@ -162,6 +166,9 @@ footer {
 		display: grid;
 		grid-template-columns: auto;
 	  }
+	  embed {
+		height: 400px;
+	}
 	  footer {
 		  margin: 0 18%;
 	  }
