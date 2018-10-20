@@ -114,7 +114,7 @@ a:hover {
 	grid-template-columns: auto auto auto;
   }
 
-  .grid-item {
+.grid-item {
 	  margin: 3%;
   }
 
@@ -135,9 +135,10 @@ a:hover {
 	opacity: .9;
 }
 footer {
-	margin: 0 35%;
+	/* margin: 0 35%; */
 	font-size: 90%;
 	color: #fff;
+	text-align: center;
 }
 
 
@@ -157,11 +158,11 @@ footer {
 	  }
 }
 @media (max-width: 517.98px) {
-	.bio-blurb {
+	/* .bio-blurb {
 		max-height: 300px;
 		overflow: scroll;
 		scroll-behavior: auto;
-	}
+	} */
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
@@ -169,7 +170,4 @@ footer {
 	  embed {
 		height: 400px;
 	}
-	  footer {
-		  margin: 0 18%;
-	  }
 }
