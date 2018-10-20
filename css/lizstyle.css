@@ -158,11 +158,6 @@ footer {
 	  }
 }
 @media (max-width: 517.98px) {
-	/* .bio-blurb {
-		max-height: 300px;
-		overflow: scroll;
-		scroll-behavior: auto;
-	} */
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
