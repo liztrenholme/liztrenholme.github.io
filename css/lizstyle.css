@@ -1,12 +1,25 @@
 body {
-	background-color: #1e656d;
 	/* background-image: url("../images/birds.jpg"); */
-	background-attachment: fixed;
+	/* background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-position: 50% 0; */
 	/* color: #00293C; */
+	background-color: #fff;
 	font-size: 110%;
 	font-family: 'Yantramanav', sans-serif;
+}
+
+/* .container-fluid {
+	background-color: #fff;
+} */
+
+.container-teal {
+	background-color: #1e656d;
+	padding: 3%;
+}
+
+.hello {
+	font-size: 300%;
 }
 
 h1 {
@@ -61,31 +74,10 @@ embed {
 }
 
 .logos {
-	width: 80%;
+	width: 70%;
 	padding: 1%;
 	align-items: center;
 }
-
-/* .front-end {
-	margin-top: 4%;
-	width: 30%;
-}
-
-.exp-logo {
-	width: 25%;
-}
-
-.mongo-logo {
-	width: 17%;
-}
-
-.node-logo, .mysql-logo {
-	width: 25%;
-}
-
-.react-logo {
-	width: 20%;
-} */
 
 .text-box {
 	clear: both;
@@ -132,7 +124,6 @@ a:hover {
 	border: 4px solid #f62a00;
 	background-color: #fff;
 	padding: 3%;
-	margin: 20px 0;
 	opacity: .9;
 	border-radius: 30px;
 }
