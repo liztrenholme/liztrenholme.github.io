@@ -30,9 +30,10 @@ h1 {
 }
 
 h3 {
-	/* text-align: center; */
+	text-align: center;
 	font-weight: bolder;
 	color: #00293C;
+	margin-top: 5%;
 }
 
 p {
@@ -68,19 +69,14 @@ embed {
 	margin: 60px;
 }
 
-.profile {
-	align-items: right;
-	border: 8px solid #fff;
-}
-
 .logos {
 	width: 70%;
 	padding: 1%;
 	align-items: center;
 }
 
-.text-box {
-	clear: both;
+.hello-col {
+	padding: 10%;
 }
 
 /* Make the links look cool */
@@ -127,10 +123,24 @@ a:hover {
 	opacity: .9;
 	border-radius: 30px;
 }
+
+form {
+	text-align: center;
+}
+input, textarea {
+	border-radius: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 2px #f62a00;
+	width: 50%;
+	margin: 2% 20%;
+}
+
 footer {
-	/* margin: 0 35%; */
+	margin: 0 35%;
 	font-size: 90%;
-	color: #fff;
+	color: #00293C;
 	text-align: center;
 }
 
@@ -144,11 +154,13 @@ footer {
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto auto;
-	  }
-	  footer {
-		  margin: 0 28%;
-	  }
+	}
+	input, textarea {
+		width: 100%;
+		margin: 1%;
+	}
 }
+/* Most mobile phones */
 @media (max-width: 517.98px) {
 	.grid-container {
 		display: grid;
@@ -156,5 +168,12 @@ footer {
 	  }
 	  embed {
 		height: 400px;
+	}
+	.grid-container-logos{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	.profile-rounded {
+		margin-left: 10%;
 	}
 }
