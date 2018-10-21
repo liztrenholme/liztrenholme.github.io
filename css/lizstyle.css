@@ -96,6 +96,7 @@ a:hover {
 
 .grid-container {
 	display: grid;
+	justify-content: space-around;
 	grid-template-columns: auto auto auto;
   }
 
@@ -161,7 +162,19 @@ footer {
 		margin: 1%;
 	}
 	.grid-spacer {
-		width: 1px;
+		display: none;
+	}
+	/* .grid-last-item {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		padding: 0 10%;
+	} */
+	.headshot {
+		flex: right;
+	}
+	.hello {
+		font-size: 200%;
+		padding: 10% 5%;
 	}
 }
 /* Most mobile phones */
@@ -176,12 +189,5 @@ footer {
 	.grid-container-logos{
 		display: grid;
 		grid-template-columns: auto auto;
-	}
-	.profile-rounded {
-		margin-left: 10%;
-	}
-	.hello {
-		font-size: 200%;
-		padding: 10% 5%;
 	}
 }
