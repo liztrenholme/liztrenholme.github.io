@@ -137,6 +137,11 @@ input, textarea {
 	margin: 2% 20%;
 }
 
+input:focus, textarea:focus {
+	background-color: #cbe1e4;
+
+}
+
 footer {
 	margin: 0 35%;
 	font-size: 90%;
@@ -158,6 +163,9 @@ footer {
 	input, textarea {
 		width: 100%;
 		margin: 1%;
+	}
+	.grid-spacer {
+		width: 1px;
 	}
 }
 /* Most mobile phones */
