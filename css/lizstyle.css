@@ -1,17 +1,8 @@
 body {
-	/* background-image: url("../images/birds.jpg"); */
-	/* background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 0; */
-	/* color: #00293C; */
 	background-color: #fff;
 	font-size: 110%;
 	font-family: 'Yantramanav', sans-serif;
 }
-
-/* .container-fluid {
-	background-color: #fff;
-} */
 
 .container-teal {
 	background-color: #1e656d;
@@ -60,7 +51,6 @@ embed {
 }
 
 .profile-rounded {
-	/* float: right; */
 	opacity: 1;
 	margin: 1%;
 	border-radius: 10px;
@@ -72,7 +62,7 @@ embed {
 
 .logos {
 	width: 70%;
-	/* margin: 10%; */
+	margin: 10%;
 	padding: 1%;
 }
 
@@ -180,7 +170,7 @@ footer {
 		display: grid;
 		grid-template-columns: auto;
 	  }
-	  embed {
+	embed {
 		height: 400px;
 	}
 	.grid-container-logos{
@@ -189,5 +179,9 @@ footer {
 	}
 	.profile-rounded {
 		margin-left: 10%;
+	}
+	.hello {
+		font-size: 200%;
+		padding: 10% 5%;
 	}
 }
