@@ -14,11 +14,22 @@
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!--  Essential META Tags -->
+	<meta property="og:title" content="Liz Trenholme, Web Developer">
+	<meta property="og:description" content="Portfolio of projects.">
+	<meta property="og:image" content="images/liz2.jpg">
+	<meta property="og:url" content="liztrenholme.com">
+	<meta name="twitter:card" content="summary_large_image">
+	<!--  Non-Essential, But Recommended -->
+	<meta property="og:site_name" content="Liz Trenholme">
+	<meta name="twitter:image:alt" content="Liz T">
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
-	<link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet" >
+	<link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/lizstyle.css">
 	<title>Liz Trenholme</title>
 </head>
@@ -66,142 +77,168 @@
 					<div class="row" id="spacer">
 						<div class="col-lg-3">
 						</div>
-						<div class="col-lg-3">
-						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
 							<div class="row">
-								<div class="col-lg-6">
-
-								</div>
-								<div class="col-lg-6">
-									<img src="images/liz2.jpg" width="200px" height="270px" alt="Liz" class="profile rounded">
+								<div class="col-lg-12">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-3">
 						</div>
 					</div>
-					<div class="row" id="about">
-						<br><br>
-					</div>
-					<div class="row" data-aos="fade-left">
-						<div class="col-lg-12 blurbs bio-blurb">
-							<h1>About</h1>
-							<p>Hi, I'm Liz! I'm a Front-End Developer working to expand my skillset to Full-Stack. I have been studying
-								JavaScript since August of 2017, and have completed the six month long Coding Bootcamp program at Case Western
-								Reserve
-								University as of July 2018.</p>
 
-							<p>As an artist, I love to incorporate creative design into my projects. I am well-versed in HTML, CSS,
-								JavaScript and jQuery, and have most recently been working a lot with React. I am also quite familiar with
-								backend technologies including Node and Express, and database technologies like MySQL and MongoDB. The future
-								will see me expanding on all of this and learning Vue, React Native, and exploring mobile languages like Swift.</p>
-						</div>
-					</div>
+
 					<div class="row" id="skills">
 						<br><br>
 					</div>
-					<div class="row" data-aos="fade-left">
+					<div class="row" data-aos="fade">
 						<div class="col-lg-12 blurbs">
 							<h1>Skills</h1>
 							<p>Every front-end project I undertake focuses on a "mobile first" design, as modern trends demand a website be
 								accessible and easy to navigate on any device. I take into account ease of use and reliability for the user as
 								well. At the same time though, a solidly constructed back-end that is fast and communicates well with the
 								front-end is essential.</p>
-							<img src="images/reactlogo.png" class="logos react-logo" alt="reactjs logo">
-							<img src="images/mongo-db.png" class="logos mongo-logo" alt="mongodb logo">
-							<img src="images/nodejs.png" class="logos node-logo" alt="nodejs logo">
-							<img src="images/frontendlogos.png" class="logos front-end" alt="front-end logos">
-							<img src="images/Expressjs.png" class="logos exp-logo" alt="expressjs logo">
-							<img src="images/mysql-logo.png" class="logos mysql-logo" alt="mysql logo">
+							<div class="grid-container">
+								<div class="grid-item">
+									<img src="images/frontendlogos.png" class="logos front-end" alt="front-end logos">
+								</div>
+								<div class="grid-item">
+									<img src="images/reactlogo.png" class="logos react-logo" alt="reactjs logo">
+								</div>
+								<div class="grid-item">
+									<img src="images/mongo-db.png" class="logos mongo-logo" alt="mongodb logo">
+								</div>
+								<div class="grid-item">
+									<img src="images/nodejs.png" class="logos node-logo" alt="nodejs logo">
+								</div>
+
+								<div class="grid-item">
+									<img src="images/Expressjs.png" class="logos exp-logo" alt="expressjs logo">
+								</div>
+								<div class="grid-item">
+									<img src="images/mysql-logo.png" class="logos mysql-logo" alt="mysql logo">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="row" id="projects">
 						<br><br>
 					</div>
-					<div class="row" data-aos="fade-right">
+					<div class="row" data-aos="fade">
 						<div class="col-lg-12 projects blurbs">
 							<div class="row">
 								<div class="col-lg-12">
 									<h1>Projects</h1>
 								</div>
 							</div>
-						<div class="grid-container">
-							<div class="grid-item">
-								<a href="https://liztrenholme.github.io/week-4-game/">
-									<h3>Star Collector</h3>
-									<img src="images/starcollector.jpg" class="portfolio" width="190px" height="150px" alt="Star Collector">
-								</a><br>
-								<div class="text-box">
-									<p>A memory game that uses jQuery and vanilla JavaScript to assign random numbers with an onclick event,
-										challenging the user to match the goal number in order to win the game. Animation in CSS.</p>
-									<a href="https://github.com/liztrenholme/week-4-game">GitHub Repository</a>
+							<div class="grid-container">
+								<div class="grid-item" data-aos="fade">
+									<a href="https://liztrenholme.github.io/week-4-game/">
+										<h3>Star Collector</h3>
+										<img src="images/starcollector.jpg" class="portfolio" width="190px" height="150px" alt="Star Collector">
+									</a><br>
+									<div class="text-box">
+										<p>A memory game that uses jQuery and vanilla JavaScript to assign random numbers with an onclick event,
+											challenging the user to match the goal number in order to win the game. Animation in CSS.</p>
+										<a href="https://github.com/liztrenholme/week-4-game">GitHub Repository</a>
+									</div>
+								</div>
+								<div class="grid-item" data-aos="fade">
+									<a href="https://liztrenholme.github.io/rpg-game/">
+										<h3>Burger Brawl!</h3>
+										<img src="images/burger.jpg" class="portfolio" width="190px" height="150px" alt="Burger Brawl">
+									</a><br>
+									<div class="text-box">
+										<p>An RPG that uses JavaScript and jQuery to allow the player to choose one character to battle the rest as
+											opponents. Styled with CSS.</p>
+										<a href="https://github.com/liztrenholme/rpg-game">GitHub Repository</a>
+									</div>
+								</div>
+								<div class="grid-item" data-aos="fade">
+									<a href="https://enchantingpon.com">
+										<h3>Enchanting PONs</h3>
+										<img src="images/enchantingpon.jpg" class="portfolio" width="190px" height="150px" alt="Cute puppies">
+									</a><br>
+									<div class="text-box">
+										<p>A site showcasing Polish Lowland Sheepdog puppies available for adoption. Built as a single page
+											application
+											with ReactJS and utilizes Formspree for the contact and application forms. Structured with Bootstrap and
+											style customized with CSS.</p>
+										<a href="https://github.com/liztrenholme/mystique-pon">GitHub Repository</a>
+									</div>
+								</div>
+								<div class="grid-item" data-aos="fade">
+									<a href="https://liztrenholme.github.io/liztrenholmeart/">
+										<h3>Liz Trenholme Art</h3>
+										<img src="images/Blackbird.jpg" class="portfolio" width="190px" height="150px" alt="Blackbird Painting">
+									</a><br>
+									<div class="text-box">
+										<p>A website I created to display my art, styled with CSS. The slidehow utilizes CSS and vanilla JavaScript.</p>
+										<a href="https://github.com/liztrenholme/liztrenholmeart">GitHub Repository</a>
+									</div>
+								</div>
+								<div class="grid-item" data-aos="fade">
+									<a href="https://liztrenholme.github.io/TriviaGame/">
+										<h3>Cheese Quiz</h3>
+										<img src="images/cheesequiz.jpg" class="portfolio" width="190px" height="150px" alt="Burger Brawl">
+									</a><br>
+									<div class="text-box">
+										<p>A quiz to test your cheese knowledge, featuring functionality and a timer made with JavaScript and jQuery
+											and styled with Bootstrap CSS.</p>
+										<a href="https://github.com/liztrenholme/TriviaGame">GitHub Repository</a>
+									</div>
+								</div>
+								<div class="grid-item" data-aos="fade">
+									<a href="https://liztrenholme.github.io/Hangman-Game/">
+										<h3>Hangman Game</h3>
+										<img src="images/hangman.jpg" class="portfolio" width="190px" height="150px" alt="Hangman Game">
+									</a><br>
+									<div class="text-box">
+										<p>A cat-themed game of Hangman, utilizing purely vanilla JavaScript for functionality and CSS for design.</p>
+										<a href="https://github.com/liztrenholme/Hangman-Game">GitHub Repository</a>
+									</div>
+								</div>
+								<div class="grid-item">
+
+								</div>
+								<div class="grid-item" data-aos="fade">
+									<a href="https://liztrenholme.github.io/giphy-search/">
+										<h3>So Many Hedgehogs!</h3>
+										<img src="images/hog.jpg" class="portfolio" width="190px" height="150px" alt="Hedgie Search">
+									</a><br>
+									<div class="text-box">
+										<p>Decorate the wall with cute hedgehog pictures! This utilizes Giphy's API with Ajax and jQuery to find the
+											right gifs and create search parameter buttons the user can toggle and customize.</p>
+										<a href="https://github.com/liztrenholme/giphy-search">GitHub Repository</a>
+									</div>
 								</div>
 							</div>
-							<div class="grid-item">
-								<a href="https://liztrenholme.github.io/rpg-game/">
-									<h3>Burger Brawl!</h3>
-									<img src="images/burger.jpg" class="portfolio" width="190px" height="150px" alt="Burger Brawl">
-								</a><br>
-								<div class="text-box">
-									<p>An RPG that uses JavaScript and jQuery to allow the player to choose one character to battle the rest as
-										opponents. Styled with CSS.</p>
-									<a href="https://github.com/liztrenholme/rpg-game">GitHub Repository</a>
+						</div>
+					</div>
+					<div class="row" id="about">
+						<br><br>
+					</div>
+					<div class="row" data-aos="fade">
+						<div class="col-lg-12 blurbs bio-blurb">
+							<div class="row">
+								<div class="col-lg-12">
+									<h1>About</h1>
 								</div>
 							</div>
-							<div class="grid-item">
-								<a href="https://enchantingpon.com">
-									<h3>Enchanting PONs</h3>
-									<img src="images/enchantingpon.jpg" class="portfolio" width="190px" height="150px" alt="Cute puppies">
-								</a><br>
-								<div class="text-box">
-									<p>A site showcasing Polish Lowland Sheepdog puppies available for adoption. Built as a single page
-										application
-										with ReactJS and utilizes Formspree for the contact and application forms. Structured with Bootstrap and
-										style customized with CSS.</p>
-									<a href="https://github.com/liztrenholme/mystique-pon">GitHub Repository</a>
+							<div class="row">
+								<div class="col-lg-9">
+									<p>I'm currently working to expand my skillset to Full-Stack. I have been studying
+										JavaScript since August of 2017, and have completed the six month long Coding Bootcamp program at Case
+										Western Reserve University as of July 2018.</p>
+
+									<p>As an artist, I love to incorporate creative design into my projects. I am well-versed in HTML, CSS,
+										JavaScript and jQuery, and have most recently been working a lot with React. I am also quite familiar with
+										backend technologies including Node and Express, and database technologies like MySQL and MongoDB. The future
+										will see me expanding on all of this and learning Vue, React Native, and exploring mobile languages like
+										Swift.</p>
 								</div>
-							</div>
-							<div class="grid-item">
-								<a href="https://liztrenholme.github.io/liztrenholmeart/">
-									<h3>Liz Trenholme Art</h3>
-									<img src="images/Blackbird.jpg" class="portfolio" width="190px" height="150px" alt="Blackbird Painting">
-								</a><br>
-								<div class="text-box">
-									<p>A website I created to display my art, styled with CSS. The slidehow utilizes CSS and vanilla JavaScript.</p>
-									<a href="https://github.com/liztrenholme/liztrenholmeart">GitHub Repository</a>
-								</div>
-							</div>
-							<div class="grid-item">
-								<a href="https://liztrenholme.github.io/TriviaGame/">
-									<h3>Cheese Quiz</h3>
-									<img src="images/cheesequiz.jpg" class="portfolio" width="190px" height="150px" alt="Burger Brawl">
-								</a><br>
-								<div class="text-box">
-									<p>A quiz to test your cheese knowledge, featuring functionality and a timer made with JavaScript and jQuery
-										and styled with Bootstrap CSS.</p>
-									<a href="https://github.com/liztrenholme/TriviaGame">GitHub Repository</a>
-								</div>
-							</div>
-							<div class="grid-item">
-								<a href="https://liztrenholme.github.io/Hangman-Game/">
-									<h3>Hangman Game</h3>
-									<img src="images/hangman.jpg" class="portfolio" width="190px" height="150px" alt="Hangman Game">
-								</a><br>
-								<div class="text-box">
-									<p>A cat-themed game of Hangman, utilizing purely vanilla JavaScript for functionality and CSS for design.</p>
-									<a href="https://github.com/liztrenholme/Hangman-Game">GitHub Repository</a>
-								</div>
-							</div>
-							<div class="grid-item">
-								<a href="https://liztrenholme.github.io/giphy-search/">
-									<h3>So Many Hedgehogs!</h3>
-									<img src="images/hog.jpg" class="portfolio" width="190px" height="150px" alt="Hedgie Search">
-								</a><br>
-								<div class="text-box">
-									<p>Decorate the wall with cute hedgehog pictures! This utilizes Giphy's API with Ajax and jQuery to find the
-										right gifs and create search parameter buttons the user can toggle and customize.</p>
-									<a href="https://github.com/liztrenholme/giphy-search">GitHub Repository</a>
+								<div class="col-lg-3">
+									<img src="images/headshot.jpg" width="200px" alt="Liz" class="profile-rounded">
 								</div>
 							</div>
 						</div>
@@ -209,31 +246,27 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- <object data="./images/LizTrenholmeResume.pdf" type="application/pdf" width="100%" height="100%">
-		<p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="./images/LizTrenholmeResume.pdf">Download PDF</a>.</p>
-	 </object> -->
-	<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-	 aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<embed src="./images/ElizabethTrenholmeResume.pdf" width="auto" type='application/pdf'>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+		 aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<embed src="./images/ElizabethTrenholmeResume.pdf" width="auto" type='application/pdf'>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<footer>&#9400; 2018 Liz Trenholme | All rights reserved.</footer>
+		<footer>&#9400; 2018 Liz Trenholme | All rights reserved.</footer>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	 crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	 crossorigin="anonymous"></script>
-	 <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-	<script src="./scripts/lizt.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		 crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		 crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+		<script src="./scripts/lizt.js"></script>
 </body>
 
 </html>
