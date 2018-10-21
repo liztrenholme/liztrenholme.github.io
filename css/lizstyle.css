@@ -15,6 +15,7 @@ body {
 }
 
 h1 {
+	margin: 2%;
 	text-align: center;
 	font-weight: bold;
 	padding-bottom: 3%;
@@ -25,7 +26,7 @@ h3 {
 	text-align: center;
 	font-weight: bolder;
 	color: #00293C;
-	margin-top: 5%;
+	margin-top: 7%;
 }
 
 p {
@@ -164,11 +165,9 @@ footer {
 	.grid-spacer {
 		display: none;
 	}
-	/* .grid-last-item {
-		grid-column-start: 1;
-		grid-column-end: 3;
-		padding: 0 10%;
-	} */
+	.lets-work {
+		margin-top: 22%;
+	}
 	.headshot {
 		flex: right;
 	}
