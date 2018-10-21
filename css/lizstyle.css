@@ -160,7 +160,7 @@ footer {
 	}
 	input, textarea {
 		width: 100%;
-		margin: 4%;
+		margin: 4% 1%;
 	}
 	.grid-spacer {
 		display: none;
