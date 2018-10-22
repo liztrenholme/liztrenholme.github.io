@@ -145,12 +145,12 @@ footer {
 }
 
 /* Medium devices (tablets, 768px and smaller) */
-@media (max-width: 767.98px) {
+@media (max-width: 967.98px) {
 	body {
 		/* background-image: url("../images/birdsmobile.jpg");  */
 		background-attachment: fixed;
 	}
-	.grid-container, .grid-container-logos {
+	.grid-container {
 		display: grid;
 		grid-template-columns: auto auto;
 	}
