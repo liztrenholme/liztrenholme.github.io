@@ -44,7 +44,6 @@ embed {
 	z-index: 5;
 	width: 100%;
 	font-size: 120%;
-
 }
 
 .insta {
@@ -87,8 +86,6 @@ a:hover {
 	text-decoration: none;
 	}
 
-
-
 .projects {
 	background-color: #fff;
 	opacity: .9;
@@ -109,8 +106,8 @@ a:hover {
 }
 
 .grid-item {
-	  margin: 3%;
-  }
+	margin: 3%;
+}
 
 .portfolio {
 	border: 4px solid #fff;
@@ -141,7 +138,6 @@ input, textarea {
 
 input:focus, textarea:focus {
 	background-color: #cbe1e4;
-
 }
 
 footer {
