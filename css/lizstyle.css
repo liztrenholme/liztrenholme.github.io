@@ -150,7 +150,7 @@ footer {
 		/* background-image: url("../images/birdsmobile.jpg");  */
 		background-attachment: fixed;
 	}
-	.grid-container {
+	.grid-container, .grid-container-logos {
 		display: grid;
 		grid-template-columns: auto auto;
 	}
