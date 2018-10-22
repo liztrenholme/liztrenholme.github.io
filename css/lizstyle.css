@@ -98,11 +98,14 @@ a:hover {
 .grid-container {
 	display: grid;
 	justify-content: space-around;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
   }
 
 .grid-container-logos {
+	display: grid;
+	justify-content: space-around;
 	justify-items: center;
+	grid-template-columns: auto auto auto auto;
 }
 
 .grid-item {
