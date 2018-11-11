@@ -16,6 +16,11 @@ body, html {
 .hello {
 	font-size: 300%;
 	padding: 10% 0;
+	color: #fff;
+}
+
+.section-title {
+	color: #00293C;
 }
 
 h1 {
@@ -23,8 +28,6 @@ h1 {
 	text-align: center;
 	font-weight: bolder;
 	padding-bottom: 3%;
-	/* color: #00293C; */
-	color: #fff;
 }
 
 h3 {
@@ -34,12 +37,8 @@ h3 {
 	margin-top: 7%;
 }
 
-.parallax { 
-    /* The image used */
-
-    /* Set a specific height */
+.parallax {
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
