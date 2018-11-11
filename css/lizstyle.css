@@ -10,13 +10,12 @@ body, html {
 
 .container-teal {
 	background-color: #12373b;
-	padding: 3%;
-	width: auto;
+	padding: 0% 3% 0% 1%;
 }
 
 .hello {
 	font-size: 300%;
-	padding: 10% 0;
+	padding: 7% 0;
 	color: #fff;
 }
 
@@ -201,8 +200,18 @@ footer {
 }
 /* Most mobile phones */
 @media (max-width: 517.98px) {
+	.container-teal {
+		background-color: #12373b;
+		padding: 3%;
+	}
+	.hello {
+		color: #00293C;
+	}
 	.parallax {
-		height: 450px;
+		height: 84%;
+	}
+	.para-first {
+		background-image: none;
 	}
 	.grid-container {
 		display: grid;
