@@ -9,8 +9,8 @@ body, html {
 }
 
 .container-teal {
-	background-color: #1e656d;
-	padding: 3%;
+	background-color: #12373b;
+	padding: 1%;
 }
 
 .hello {
@@ -21,9 +21,10 @@ body, html {
 h1 {
 	margin-bottom: 2%;
 	text-align: center;
-	font-weight: bold;
+	font-weight: bolder;
 	padding-bottom: 3%;
-	color: #00293C;
+	/* color: #00293C; */
+	color: #fff;
 }
 
 h3 {
