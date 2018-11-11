@@ -199,6 +199,9 @@ footer {
 }
 /* Most mobile phones */
 @media (max-width: 517.98px) {
+	.parallax {
+		height: 450px;
+	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
