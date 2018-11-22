@@ -17,7 +17,9 @@ body, html {
 
 .container-teal {
 	background-color: #12373b;
+	height: auto;
 	padding: 0% 3% 0% 1%;
+	margin: 10% 0;
 }
 
 .hello {
@@ -45,7 +47,7 @@ h3 {
 }
 
 .parallax {
-    height: 100%;
+    height: auto;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -126,7 +128,7 @@ a:hover {
 
 .grid-container, .grid-container-logos {
 	display: grid;
-	justify-content: space-around;
+	justify-content: center;
 	grid-template-columns: auto auto auto auto;
   }
 
@@ -136,6 +138,9 @@ a:hover {
 
 .grid-item {
 	margin: 3%;
+	background-color: #fff;
+	opacity: .7;
+	border-radius: 50px;
 }
 
 .portfolio {
@@ -146,7 +151,7 @@ a:hover {
 	border: 4px solid #f62a00;
 	background-color: #fff;
 	padding: 3%;
-	margin: 1%;
+	margin: 2% 1%;
 	opacity: .9;
 	border-radius: 30px;
 	text-align: center;

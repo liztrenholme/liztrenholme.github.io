@@ -6,4 +6,5 @@ $(document).on('click','.navbar-collapse.show',function(e) {
   // Allows AOS fadein animations to work on scroll
   AOS.init({
     duration: 1200,
+    // startEvent: 'DOMContentLoaded'
   });
