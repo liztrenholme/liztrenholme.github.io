@@ -2,6 +2,7 @@ body {
 	/* background-color: #fff; */
 	font-size: 110%;
 	font-family: 'Yantramanav', sans-serif;
+	background-color: #12373b;
 	/* overflow: scroll; */
 }
 
@@ -20,6 +21,10 @@ body, html {
 	height: auto;
 	padding: 0% 3% 0% 1%;
 	margin: 10% 0;
+}
+
+.container-fluid {
+	background-color: #12373b;
 }
 
 .hello {
@@ -56,7 +61,8 @@ h3 {
 }
 
 .para-first {
-    background-image: url("../images/workspace.png");
+	background-image: url("../images/workspace.png");
+	background-color: #fff;
 }
 
 .para-second {
@@ -153,7 +159,7 @@ a:hover {
 	border: 4px solid #f62a00;
 	background-color: #fff;
 	padding: 3%;
-	margin: 2% 1%;
+	margin: 0% 1%;
 	opacity: .9;
 	border-radius: 30px;
 	text-align: center;
@@ -236,6 +242,6 @@ footer {
 	}
 	.grid-container-logos{
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: auto auto auto;
 	}
 }
