@@ -126,20 +126,22 @@ a:hover {
 	text-align: center;
 }
 
-.grid-container, .grid-container-logos {
+.grid-container {
 	display: grid;
 	justify-content: center;
 	grid-template-columns: auto auto auto auto;
   }
 
-.grid-container-logos {
+.grid-container-logos {	
+	display: grid;
 	justify-items: center;
+	grid-template-columns: auto auto auto;
 }
 
 .grid-item {
 	margin: 3%;
-	background-color: #fff;
-	opacity: .7;
+	/* background-color: #fff;
+	opacity: .7; */
 	border-radius: 50px;
 }
 
