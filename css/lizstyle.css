@@ -20,7 +20,7 @@ body, html {
 	background-color: #12373b;
 	height: auto;
 	padding: 0% 3% 0% 1%;
-	margin: 10% 0;
+	margin: 5% 0;
 }
 
 .container-fluid {
@@ -186,7 +186,7 @@ input:focus, textarea:focus {
 footer {
 	margin: 0 35%;
 	font-size: 90%;
-	color: #00293C;
+	color: #fff;
 	text-align: center;
 }
 
@@ -195,6 +195,13 @@ footer {
 	body {
 		/* background-image: url("../images/birdsmobile.jpg");  */
 		background-attachment: fixed;
+	}
+	.para-first {
+		background-image: none;
+	}
+	.hello {
+		color: #00293C;
+		padding: 2% 20%;
 	}
 	.grid-container {
 		display: grid;
@@ -233,6 +240,9 @@ footer {
 	}
 	.para-first {
 		background-image: none;
+	}
+	.separate {
+		height: 5%;
 	}
 	.grid-container {
 		display: grid;
