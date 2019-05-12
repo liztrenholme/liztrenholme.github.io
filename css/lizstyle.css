@@ -141,7 +141,7 @@ a:hover {
 .grid-container-logos {	
 	display: grid;
 	justify-items: center;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto auto;
 }
 
 .grid-item {
@@ -177,6 +177,7 @@ input, textarea {
 	border-bottom: solid 2px #f62a00;
 	width: 50%;
 	margin: 2% 10%;
+	resize: none;
 }
 
 input:focus, textarea:focus {
@@ -210,6 +211,7 @@ footer {
 	input, textarea {
 		width: 100%;
 		margin: 4% 1%;
+		resize: none;
 	}
 	.grid-spacer {
 		display: none;
