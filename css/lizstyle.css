@@ -20,7 +20,7 @@ body, html {
 	background-color: #12373b;
 	height: auto;
 	padding: 0% 3% 0% 1%;
-	margin: 5% 0;
+	margin: 2em 0;
 }
 
 .container-fluid {
@@ -28,13 +28,14 @@ body, html {
 }
 
 .hello {
-	font-size: 300%;
+	font-size: 3em;
 	padding: 7% 0;
 	color: #fff;
 }
 
 .section-title {
 	color: #00293C;
+	margin-top: 1em;
 }
 
 h1 {
@@ -130,6 +131,7 @@ a:hover {
 	background-color: #fff;
 	opacity: .9;
 	text-align: center;
+	padding-top: 2em;
 }
 
 .grid-container {
@@ -223,7 +225,7 @@ footer {
 		flex: right;
 	}
 	.hello {
-		font-size: 200%;
+		font-size: 2em;
 		padding: 10% 5%;
 	}
 }
@@ -231,20 +233,26 @@ footer {
 @media (max-width: 517.98px) {
 	.container-teal {
 		background-color: #12373b;
-		padding: 3%;
+		padding: 0 1em;
 	}
 	.hello {
 		color: #00293C;
-		padding: 2% 20%;
+		padding: 2% 20% 10% 20%;
 	}
 	.parallax {
-		height: 84%;
+		height: 34em;
 	}
+
+	#projects {
+		margin-top: -20em;
+		padding-top: 2em;
+	}
+
 	.para-first {
 		background-image: none;
 	}
 	.separate {
-		height: 5%;
+		height: .5em;
 	}
 	.grid-container {
 		display: grid;
@@ -255,6 +263,6 @@ footer {
 	}
 	.grid-container-logos{
 		display: grid;
-		grid-template-columns: auto auto auto;
+		grid-template-columns: auto auto auto auto auto;
 	}
 }
