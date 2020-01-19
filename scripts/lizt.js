@@ -1,10 +1,20 @@
 // This allows navbar to collapse after cliking/tapping on menu item
-$(document).on('click','.navbar-collapse.show',function(e) {
-    $(this).collapse('hide');
-  });
+$(document).on('click', '.navbar-collapse.show', function (e) {
+  $(this).collapse('hide');
+});
 
-  // Allows AOS fadein animations to work on scroll
-  AOS.init({
-    duration: 1200,
-    // startEvent: 'DOMContentLoaded'
-  });
+// Allows AOS fadein animations to work on scroll
+AOS.init({
+  duration: 1200,
+  // startEvent: 'DOMContentLoaded'
+});
+
+var year = new Date().getFullYear();
+
+var yearDisplay = document.querySelector('#year');
+var span = document.createElement('span');
+span.innerHTML = year.toString();
+var fragment = document.createDocumentFragment();
+fragment.appendChild(span);
+
+yearDisplay.appendChild(fragment);
