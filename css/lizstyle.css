@@ -102,9 +102,9 @@ embed {
 }
 
 .logos {
-	width: 70%;
-	margin: 10%;
-	padding: 1%;
+	max-width: 10em;
+	margin: 1em;
+	padding: .5em;
 }
 
 .hello-col {
@@ -141,15 +141,17 @@ a:hover {
   }
 
 .grid-container-logos {	
-	display: grid;
+	/* display: grid;
 	justify-items: center;
-	grid-template-columns: auto auto auto auto auto;
+	grid-template-columns: auto auto auto auto auto; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .grid-item {
-	margin: 3%;
-	/* background-color: #fff;
-	opacity: .7; */
+	margin: 1em;
 	border-radius: 50px;
 }
 
