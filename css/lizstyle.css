@@ -249,7 +249,7 @@ footer {
 	}
 
 	#projects {
-		margin-top: -10em;
+		margin-top: -8em;
 		padding-top: 2em;
 	}
 
@@ -282,5 +282,11 @@ footer {
 	.container-fluid {
 		display: flex;
 		flex-direction: column;
+	}
+}
+
+@media (max-width: 417.98px) {
+	.logos {
+		max-width: 3.2em;
 	}
 }
