@@ -13,7 +13,7 @@ var year = new Date().getFullYear();
 
 var yearDisplay = document.querySelector('#year');
 var span = document.createElement('span');
-span.innerHTML = year.toString();
+span.innerHTML = '2018 - ' + year.toString()  + ' Liz Trenholme | All rights reserved.';
 var fragment = document.createDocumentFragment();
 fragment.appendChild(span);
 
