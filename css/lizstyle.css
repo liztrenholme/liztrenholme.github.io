@@ -69,7 +69,7 @@ h3 {
 }
 
 .para-first {
-	background-image: url("../images/workspace.png");
+	background-image: url("../images/keyboard.png");
 	/* background-color: #fff; */
 	background-position-y: -4em;
 }
@@ -175,7 +175,7 @@ a:hover {
 	background-color: #fff;
 	padding: 1em;
 	margin: 0 .2em;
-	opacity: .9;
+	/* opacity: .9; */
 	border-radius: 30px;
 	text-align: center;
 }
@@ -211,8 +211,11 @@ footer {
 @media (max-width: 967.98px) {
 	body {
 		/* background-image: url("../images/birdsmobile.jpg");  */
+		background-image: url('../images/keyboard-mobile.png');
 		background-attachment: fixed;
-		background-image: linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(255, 255, 255, 1) 90%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* background-image: linear-gradient(to bottom, rgba(21, 51, 51, 1), rgba(55, 55, 55, 1) 90%); */
 	}
 	.para-first {
 		background-image: none;
@@ -251,9 +254,9 @@ footer {
 	.logos {
 		max-width: 7em;
 	}
-	.blurbs {
-		background-color: rgba(255, 255, 255, .8);
-	}
+	/* .blurbs {
+		background-color: rgba(255, 255, 255, .9);
+	} */
 	footer {
 		color: #333;
 	}
@@ -262,6 +265,10 @@ footer {
 /* Most mobile phones */
 
 @media (max-width: 517.98px) {
+	body {
+		background-position: -9em 0;
+
+	}
 	.container-teal {
 		/* background-color: #12373b; */
 		padding: 0 1em;
