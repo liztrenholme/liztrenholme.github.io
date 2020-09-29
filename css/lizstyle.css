@@ -28,9 +28,9 @@ body, html {
 
 }
 
-.container-fluid {
-	/* background-color: #12373b; */
-}
+/* .container-fluid {
+	/* background-color: #12373b; 
+} */
 
 .hello {
 	font-size: 3em;
@@ -43,11 +43,12 @@ body, html {
 	margin-top: 1em;
 }
 
-h1 {
+h2 {
 	margin-bottom: .2em;
 	text-align: center;
 	font-weight: bolder;
 	padding-bottom: .3em;
+	font-size: 2.5em;
 }
 
 h3 {
